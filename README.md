@@ -4,15 +4,15 @@ English First, Japanese Second.
 
 # Prerequisites
 
---The environment construction of Ansible has been completed _ The following is the installation guide of the official document.
---Basically, complete the environment construction with pyenv and pipenv and use python3.7 or higher. It is recommended to install ansible with pipenv.
+- The environment construction of Ansible has been completed _ The following is the installation guide of the official document.
+- Basically, complete the environment construction with pyenv and pipenv and use python3.7 or higher. It is recommended to install ansible with pipenv.
 https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
---For resource deployment, LINUX Distribution is adopted so that Ansible can connect to the corresponding server with SSH.
+- For resource deployment, LINUX Distribution is adopted so that Ansible can connect to the corresponding server with SSH.
 
 # Environment
 
---Define the connection to the server where you want to execute the processing by Ansible in .ssh / config.
---Specific examples are as follows
+- Define the connection to the server where you want to execute the processing by Ansible in .ssh / config.
+- Specific examples are as follows
 
 `` ```
 Host sample_host
@@ -26,13 +26,13 @@ Host sample_host
 
 # Execution method
 
---cd sample
---ansible-playbook -v -i inventories / develop webservers.yml
+- cd sample
+- ansible-playbook -v -i inventories / develop webservers.yml
 
 # Description of each folder
 
---sample
-  --Folders that follow Ansible best practices
+- sample
+  - Folders that follow Ansible best practices
 
 # 前提条件
 
