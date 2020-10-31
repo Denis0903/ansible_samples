@@ -14,7 +14,7 @@ https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht
 - Define the connection to the server where you want to execute the processing by Ansible in .ssh / config.
 - Specific examples are as follows
 
-`` ```
+```
 Host sample_host
     HostName host_accesible_ip_address
     User ubuntu
@@ -22,7 +22,7 @@ Host sample_host
     Port 22
     TCPKeepAlive yes
     IdentitiesOnly yes
-`` ```
+```
 
 # Execution method
 
