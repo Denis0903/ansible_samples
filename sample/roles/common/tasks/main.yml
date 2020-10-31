@@ -1,3 +1,4 @@
-## -- INITIALIZERによる挿入 --
-# 担当するモジュールのみを扱うように、シンプルに保ちます。
-## -- INITIALIZERによる挿入 --
+- name: Change the working directory to somedir/ before executing the command.
+  shell: mkdir test
+  args:
+    chdir: /home/ubuntu

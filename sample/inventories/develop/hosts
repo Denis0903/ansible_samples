@@ -1,6 +1,6 @@
 ## -- INITIALIZERによる挿入 --
 [webservers]
-127.0.0.1
+test_ec2
 
 [dbservers]
 127.0.0.1

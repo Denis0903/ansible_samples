@@ -1,7 +1,5 @@
-## -- INITIALIZERによる挿入 --
-# 各モジュールのymlは、小分けにしたroleをincludeするだけのシンプルさを保ちます。
 - hosts: webservers
-  #   become_user: vagrant
-  #   become: yes
+  become: yes
+  become_user: root
   roles:
-## -- INITIALIZERによる挿入 --
+    - common
